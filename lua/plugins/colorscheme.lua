@@ -23,6 +23,7 @@ return {
 	{ "marko-cerovac/material.nvim", enabled = false, },
 	{ "mcchrish/zenbones.nvim", enabled = false, }, -- error
 	{ "shaunsingh/nord.nvim" , enabled = false, }, 
+	{ "cocopon/iceberg.vim", enabled = false, },
 	
 	-- https://github.com/mcchrish/vim-no-color-collections
 	{ "andreasvc/vim-256noir", enabled = false, },
