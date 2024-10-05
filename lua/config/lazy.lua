@@ -11,11 +11,26 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import any extras modules here
-    -- { import = "lazyvim.plugins.extras.lang.typescript" },
-    -- { import = "lazyvim.plugins.extras.lang.json" },
+    -- dap
+    { import = "lazyvim.plugins.extras.dap.core" }, -- https://www.lazyvim.org/extras/dap/core
+    -- { import = "lazyvim.plugins.extras.dap.nlua" }, -- https://www.lazyvim.org/extras/dap/nlua
+    -- lang
+    { import = "lazyvim.plugins.extras.lang.clangd" }, -- https://www.lazyvim.org/extras/lang/clangd
+    { import = "lazyvim.plugins.extras.lang.docker" }, -- https://www.lazyvim.org/extras/lang/docker
+    { import = "lazyvim.plugins.extras.lang.go" }, -- https://www.lazyvim.org/extras/lang/go
+    -- { import = "lazyvim.plugins.extras.lang.json" }, -- https://www.lazyvim.org/extras/lang/json
+    -- { import = "lazyvim.plugins.extras.lang.markdown" }, -- https://www.lazyvim.org/extras/lang/markdown
+    -- { import = "lazyvim.plugins.extras.lang.nix" }, -- https://www.lazyvim.org/extras/lang/nix
+    -- { import = "lazyvim.plugins.extras.lang.python" }, -- https://www.lazyvim.org/extras/lang/python
+    -- { import = "lazyvim.plugins.extras.lang.typescript" }, -- https://www.lazyvim.org/extras/lang/typescript
+    -- { import = "lazyvim.plugins.extras.lang.yaml" }, -- https://www.lazyvim.org/extras/lang/yaml
+    -- ui
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
-    { import = "lazyvim.plugins.extras.lang.go" },
-    { import = "lazyvim.plugins.extras.dap.core" },
+    { import = "lazyvim.plugins.extras.ui.treesitter-context" }, -- https://www.lazyvim.org/extras/ui/treesitter-context
+    -- util
+    { import = "lazyvim.plugins.extras.util.gitui" }, -- https://www.lazyvim.org/extras/util/gitui
+    -- { import = "lazyvim.plugins.extras.util.project" }, -- https://www.lazyvim.org/extras/util/project
+    -- CHECK https://github.com/coffebar/neovim-project
     -- import/override with your plugins
     { import = "plugins" },
   },
