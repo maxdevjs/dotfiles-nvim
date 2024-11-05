@@ -10,11 +10,13 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    -- { import = "plugins" },
     -- import any extras modules here
     -- dap
     { import = "lazyvim.plugins.extras.dap.core" }, -- https://www.lazyvim.org/extras/dap/core
     -- { import = "lazyvim.plugins.extras.dap.nlua" }, -- https://www.lazyvim.org/extras/dap/nlua
     -- lang
+    -- https://clangd.llvm.org/config.html
     { import = "lazyvim.plugins.extras.lang.clangd" }, -- https://www.lazyvim.org/extras/lang/clangd
     { import = "lazyvim.plugins.extras.lang.docker" }, -- https://www.lazyvim.org/extras/lang/docker
     { import = "lazyvim.plugins.extras.lang.go" }, -- https://www.lazyvim.org/extras/lang/go
