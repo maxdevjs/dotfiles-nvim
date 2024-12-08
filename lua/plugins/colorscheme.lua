@@ -17,6 +17,7 @@ return {
       vim.cmd([[colorscheme tokyodark]])
     end,
   },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   { "folke/tokyonight.nvim", enabled = false },
   { "whatyouhide/vim-gotham", enabled = false },
   { "bluz71/vim-nightfly-colors", enabled = false },
@@ -47,7 +48,8 @@ return {
       -- gotham256 kanagawa-dragon
       -- 256_noir atlas komau meh antiphoton rams true-monochrome github_dark_high_contrast
       -- Best: atlas embark kanagawa kanagawabones komau meh
-      colorscheme = "zenbones",
+      -- colorscheme = "zenbones",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
