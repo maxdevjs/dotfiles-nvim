@@ -31,6 +31,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## TODO
 
+- [ ] Update README
 - [x] fix [kitty](https://github.com/kovidgoyal/kitty) padding 
   - [Conditional padding or 'moving the prompt' #1915](https://github.com/kovidgoyal/kitty/issues/1915)
   - ['Failed to open controlling terminal' error when trying to remote control from vim #2426](https://github.com/kovidgoyal/kitty/issues/2426#issuecomment-711095305)
