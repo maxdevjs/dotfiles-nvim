@@ -14,6 +14,7 @@ require("lazy").setup({
     -- import any extras modules here
     -- dap
     { import = "lazyvim.plugins.extras.dap.core" }, -- https://www.lazyvim.org/extras/dap/core
+    { import = "lazyvim.plugins.extras.formatting.prettier" }, -- https://www.lazyvim.org/extras/dap/core
     -- { import = "lazyvim.plugins.extras.dap.nlua" }, -- https://www.lazyvim.org/extras/dap/nlua
     -- lang
     -- https://clangd.llvm.org/config.html
@@ -24,7 +25,8 @@ require("lazy").setup({
     -- { import = "lazyvim.plugins.extras.lang.markdown" }, -- https://www.lazyvim.org/extras/lang/markdown
     -- { import = "lazyvim.plugins.extras.lang.nix" }, -- https://www.lazyvim.org/extras/lang/nix
     -- { import = "lazyvim.plugins.extras.lang.python" }, -- https://www.lazyvim.org/extras/lang/python
-    -- { import = "lazyvim.plugins.extras.lang.typescript" }, -- https://www.lazyvim.org/extras/lang/typescript
+    { import = "lazyvim.plugins.extras.lang.tailwind" }, -- https://www.lazyvim.org/extras/lang/tailwind
+    { import = "lazyvim.plugins.extras.lang.typescript" }, -- https://www.lazyvim.org/extras/lang/typescript
     -- { import = "lazyvim.plugins.extras.lang.yaml" }, -- https://www.lazyvim.org/extras/lang/yaml
     -- ui
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
