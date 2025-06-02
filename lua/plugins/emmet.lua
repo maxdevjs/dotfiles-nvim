@@ -11,17 +11,18 @@ return {
       servers = {
         emmet_ls = {
           filetypes = {
-            "html",
-            "typescriptreact",
-            "javascriptreact",
+            "astro",
             "css",
-            "sass",
-            "scss",
+            "ejs",
+            "html",
             "less",
             "javascript",
-            "typescript",
+            "javascriptreact",
             "markdown",
-            "ejs",
+            "sass",
+            "scss",
+            "typescript",
+            "typescriptreact",
           },
           init_options = {
             html = {
